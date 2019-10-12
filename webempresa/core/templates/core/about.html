@@ -1,0 +1,27 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Historia{% endblock %}
+
+{% block content %}
+<section class="page-section about-heading">
+  <div class="container">
+    <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/about.jpg' %}" alt="">
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Tradición familiar huehueteca</span>
+              <span class="section-heading-lower">Nuestra historia</span>
+            </h2>
+            <p>La idea surge viendo la necesidad de los productores, a quienes se les pago muy poco sin siquiera cubrir los costos de produccion, con este fin  se plantea esta emprendimiento que le paga un precio mas justo. </p>
+            <p>Reconociendo la calidad del café y realizando el pago en base a esta calidad, si usted nos compra el café ayudará a un productor de café de calidad, por sus condiciones climáticas y de manejo en la producción como en el beneficiado.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
